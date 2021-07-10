@@ -18,7 +18,7 @@ import java.util.ArrayList;
 @Controller
 public class LoginController {
 
-    @GetMapping("/Login.html")
+    @GetMapping("/")
     public String login(){
     //        model.addAttribute("title", "a");
         return "Login.html";
