@@ -54,7 +54,7 @@
 
             $('body').on('click', '.buttonclick', function(){
                 var projectDetailFourID = $(this).attr('q');
-                window.location.replace(window.location.origin+"/Lisuserstories.html?id="+projectDetailFourID);
+                window.location.replace(window.location.origin+"/ListUserStories.html?id="+projectDetailFourID);
             });
 
             $("#btn-meeting-submit").click(function(event){
@@ -145,15 +145,6 @@
                         <div class="field">
                             <div class="label">
                                 Meeting Audio File</div>
-
-<!--                            <input type="file" id="real-file"/>-->
-                            <!--                                <textarea rows="5" cols="32"  id="input"></textarea>-->
-
-                            <!--                            <div class="data">-->
-                            <!--                                <label>Meeting Audio or Video </label>-->
-                            <!--                                <br/>-->
-                            <!--                            </div>-->
-                            <!--                            -->
                             <div class="btn-file">
 <!--                                <input type="file" id="file-button"> Upload File</input>-->
                                 <input type="file" id="real-file" hidden="hidden"/>
