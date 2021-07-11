@@ -60,7 +60,7 @@
             });
 
             $('body').on('click', '.buttonclick', function(){
-                    window.location.replace(window.location.origin+"/ProjectDetail4.html?id="+$(this).attr("q"));
+                    window.location.replace(window.location.origin+"/Projectdetail4.html?id="+$(this).attr("q"));
             });
 
             $("#btn_new_project-too").click(function(){
@@ -93,8 +93,7 @@
                         if(hapmList.status){
                             $.each(hapmList.data, function(index, item){
                                 var ids = item.data.id;
-                                // window.location.replace(window.location.origin+"/projectdetailfour?id="+ids);
-                                window.location.replace(window.location.origin+"/ProjectDetail4.html?id="+ids);
+                                window.location.replace(window.location.origin+"/Projectdetail4.html?id="+ids);
                                 alert("Success");
                                 // alert("Everything went fine");
                             });
